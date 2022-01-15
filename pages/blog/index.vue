@@ -19,7 +19,7 @@ export default {
 
 <template>
 <page>
-  <div class="mt-12">
+  <div class="mt-12 px-4 md:px-0">
     <content-item
       v-for="(content, index) in contents"
       :key="index"

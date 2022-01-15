@@ -10,6 +10,6 @@ export default {
 <template>
   <div class="max-w-2xl mx-auto w-full">
     <app-navbar />
-    <slot />
+    <slot class="px-4" />
   </div>
 </template>

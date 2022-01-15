@@ -1,31 +1,26 @@
 <script>
-  export default {
-    async asyncData({ $content, params }) {
-      const content = await $content(params.slug).fetch()
+import Page from '../../components/Page';
 
-      return {
-        content
-      }
+export default {
+  components: {
+    Page
+  },
+  async asyncData({ $content, params }) {
+    const content = await $content(params.slug).fetch()
+
+    return {
+      content
     }
   }
+}
 </script>
 
 <template>
-  <div :key="$route.params.slug">
-    <section class="hero is-primary">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            {{$route.params.slug}}
-          </h1>
-          <h2 class="subtitle">
-            A dynamic markdown file
-          </h2>
-        </div>
-      </div>
-    </section>
-    <div class="container">
-      <nuxt-content :document="content" />
+  <page>
+    <div :key="$route.params.slug">
+      <article class="mt-12 pb-24 md:px-0 px-4 ">
+        <nuxt-content :document="content" />
+      </article>
     </div>
-  </div>
+  </page>
 </template>

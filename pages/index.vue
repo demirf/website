@@ -10,7 +10,7 @@ export default {
 
 <template>
   <page>
-    <div class="mt-24">
+    <div class="mt-24 px-4 md:px-0">
       <h1 class="text-3xl mb-6">Ferhat Demir</h1>
       <p >Software engineer. I'm writing code and sharing my experiences.</p>
     </div>
