@@ -2,7 +2,6 @@
 title: First Commit
 description: Herkese selam 👋
 slug: first-commit
-date: Dec 30, 2021
 ---
 
 # First Commit
