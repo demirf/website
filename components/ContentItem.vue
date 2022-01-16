@@ -14,10 +14,10 @@ export default {
 <template>
   <nuxt-link :to="url" class="content-item">
     <section>
-      <p class="text-white mb-2">
+      <p class="mb-2">
         {{ content.title }}
       </p>
-      <p class="text-gray-500 dark:text-zinc-400 font-normal leading-6">
+      <p class="text-gray-500 dark:text-zinc-400 leading-6">
         {{ content.description }}
       </p>
     </section>

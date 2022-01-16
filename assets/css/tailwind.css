@@ -6,7 +6,8 @@
 *,
 *:before,
 *:after {
-  @apply text-gray-100;
+  color: #c5c7cb;
+  font-weight: 700;
 }
 
 body {
@@ -30,7 +31,19 @@ p {
   background-color: rgb(38 38 38);
 }
 
-.nuxt-link-exact-active {
+.nuxt-link-exact-active.nav-link {
   text-decoration-line: underline;
   text-underline-offset: 10px;
+}
+
+.app-logo {
+  text-shadow: 0.1rem 0.1rem #b26d71;
+  color: #c5c7cb;
+  font-size: 2rem;
+  transition: all .3s;
+  font-weight: 700;
+}
+
+.app-logo:hover {
+  text-shadow: .05rem .05rem #b26d71;
 }

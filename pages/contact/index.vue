@@ -10,8 +10,7 @@ export default {
 
 <template>
   <page>
-    <div class="mt-16">
-      <p class="text-gray-500 mb-2">Get in touch.</p>
+    <div class="mt-16 px-4 md:px-0">
       <p>edemirferhat@gmail.com</p>
     </div>
   </page>

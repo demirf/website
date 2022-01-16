@@ -22,12 +22,8 @@
   @apply text-gray-600 mb-4;
 }
 
-.nuxt-content p {
+.nuxt-content p a {
   margin-bottom: 1rem;
-}
-
-.nuxt-content p, h1, h2, h3 {
-  color: rgb(229 229 229)
 }
 
 

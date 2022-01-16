@@ -1,7 +1,7 @@
 ---
-title: 2021 Review
-description: Review of my journey and goals for 2021.
-slug: 2021-review
+title: First Commit
+description: First Commit
+slug: first-commit
 date: Dec 30, 2021
 ---
 
