@@ -12,6 +12,7 @@ export default {
   <page>
     <div class="mt-16 px-4 md:px-0">
       <p>edemirferhat@gmail.com</p>
+      <p>ferhat@superpeer.com</p>
     </div>
   </page>
 </template>
