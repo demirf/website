@@ -1,9 +1,11 @@
 <script>
 import Page from '../../components/Page'
+import SocialMediaLinks from '../../components/SocialMediaLinks'
 
 export default {
   components: {
-    Page
+    Page,
+    SocialMediaLinks
   },
 }
 </script>
@@ -11,8 +13,7 @@ export default {
 <template>
   <page>
     <div class="mt-16 px-4 md:px-0">
-      <p>edemirferhat@gmail.com</p>
-      <p>ferhat@superpeer.com</p>
+      <social-media-links />
     </div>
   </page>
 </template>
